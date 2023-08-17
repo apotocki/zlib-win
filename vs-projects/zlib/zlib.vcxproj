@@ -158,16 +158,22 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug dll|Win32'">
-    <TargetName>$(ProjectName)1</TargetName>
+    <TargetName>$(ProjectName)1d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug dll|x64'">
-    <TargetName>$(ProjectName)1</TargetName>
+    <TargetName>$(ProjectName)1d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release dll|Win32'">
     <TargetName>$(ProjectName)1</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release dll|x64'">
     <TargetName>$(ProjectName)1</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug lib|Win32'">
+    <TargetName>$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug lib|x64'">
+    <TargetName>$(ProjectName)d</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug lib|Win32'">
     <ClCompile>
@@ -205,7 +211,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ModuleDefinitionFile>$(ProjectDir)..\..\packages\zlib\win32\zlib.def</ModuleDefinitionFile>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <ImportLibrary>$(OutDir)zdll.lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)zdlld.lib</ImportLibrary>
     </Link>
     <Manifest>
       <InputResourceManifests>
@@ -296,7 +302,7 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ModuleDefinitionFile>$(ProjectDir)..\..\packages\zlib\win32\zlib.def</ModuleDefinitionFile>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <ImportLibrary>$(OutDir)zdll.lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)zdlld.lib</ImportLibrary>
     </Link>
     <Manifest>
       <InputResourceManifests>
