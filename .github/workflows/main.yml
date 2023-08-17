@@ -41,7 +41,6 @@ jobs:
         xcopy "vs-projects\zlib\x64\Release lib\z*.pdb" build\bin\
         xcopy "vs-projects\zlib\x64\Release lib\*.lib" build\lib\
         Compress-Archive -Path build/* -Destination zlib-1.2.13.zip
-        wait
     - name: Release
       uses: softprops/action-gh-release@v1
       if: startsWith(github.ref, 'refs/tags/')
