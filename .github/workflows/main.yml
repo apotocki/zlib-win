@@ -24,7 +24,7 @@ jobs:
         msbuild vs-projects\zlib\zlib.vcxproj -target:Build /P:Configuration="Release lib" /p:Platform="x64"
     - name: Prepare Release
       run: |
-        setlocal enableextensions
+        mkdir build
         mkdir build\include
         mkdir build\lib
         mkdir build\bin
