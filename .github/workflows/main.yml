@@ -1,5 +1,4 @@
 name: Build ZLIB Library
-uses: microsoft/setup-msbuild@v1.1
 on:
   release:
     types: [published]
@@ -13,6 +12,10 @@ jobs:
     timeout-minutes: 5
     steps:
     - uses: actions/checkout@v3
+    - name: setup-msbuild
+      uses: microsoft/setup-msbuild@v1
+      with:
+        vs-version: '17.7'
     - name: Build
       run: |
         msbuild vs-projects\zlib\zlib.vcxproj -target:Build /P:Configuration="Debug Dll" /p:Platform="x64"
