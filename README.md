@@ -1,4 +1,4 @@
-[<img src="https://api.gitsponsors.com/api/badge/img?id=678328362" height="40">](https://api.gitsponsors.com/api/badge/link?p=qa1aqZb0F9p4AjzzcWjp0b5M0nGUNK9MvvvLs4L6IAafWl2AWrs2vxPYdQSo+jt37NQXIxYON3CLwTSM9gyexE6yjb4pv6+0L86Jp50jDL2cV8p0etfACcq3x/koB2ZoXmGdytP2UM9Z2+Bz+pYl5A==)
+[<img src="https://api.gitsponsors.com/api/badge/img?id=678328362" height="50">](https://api.gitsponsors.com/api/badge/link?p=qa1aqZb0F9p4AjzzcWjp0faK5KINpVtxJznUJ/22u5dUpnOQI2T00jaYNa8mWuKlCEaY73DbSKUHsn2mfqcETbqGWNAmPY1C4+Zr36ajz+6ITXJh/xSrxKQBymN5buBXQEFIjnEIywVIEbdaHBPdnQ==)
 
 This repo contains project and solution files for building zlib library for Windows using Visual Studio.
 
