@@ -1,3 +1,5 @@
+[<img src="https://api.gitsponsors.com/api/badge/img?id=678328362" height="20">](https://api.gitsponsors.com/api/badge/link?p=qa1aqZb0F9p4AjzzcWjp0b5M0nGUNK9MvvvLs4L6IAafWl2AWrs2vxPYdQSo+jt37NQXIxYON3CLwTSM9gyexE6yjb4pv6+0L86Jp50jDL2cV8p0etfACcq3x/koB2ZoXmGdytP2UM9Z2+Bz+pYl5A==)
+
 This repo contains project and solution files for building zlib library for Windows using Visual Studio.
 
 The solution is able to build both static and dynamic libraries in debug and release configurations for x86 and x64 architectures
